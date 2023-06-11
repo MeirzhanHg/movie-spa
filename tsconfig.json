@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "app/components/screens/auth/useAuthRedirect.js", "app/components/screens/auth/Auth.jsx", "app/components/screens/auth/AuthFields.jsx", "app/shared/regex.js", "pages/profile.jsx", "app/providers/AuthProvider/CheckRole.jsx", "app/providers/AuthProvider/AuthProvider.jsx", "app/components/screens/admin/home/Statistics/Statistics.jsx", "app/components/screens/admin/home/Statistics/PopularMovie.jsx", "app/components/screens/admin/home/Statistics/CountUsers.jsx", "app/components/screens/admin/home/Admin.jsx", "app/components/ui/admin-navigation/AdminNavItem.jsx", "app/components/ui/admin-navigation/AdminNavigation.jsx", "app/components/ui/admin-navigation/admin-navigation.data.js", "app/components/screens/admin/users/useUsers.js", "app/components/screens/admin/users/UserList.jsx", "app/components/ui/admin-table/AdminHeader/AdminHeader.jsx", "app/components/ui/admin-table/AdminHeader/AdminCreateButton.jsx", "app/components/ui/admin-table/AdminTable/AdminTable.jsx", "app/components/ui/admin-table/AdminTable/AdminTableHeader.jsx", "app/components/ui/admin-table/AdminTable/AdminTableItem.jsx", "app/components/ui/admin-table/AdminTable/AdminActions/AdminActions.jsx", "app/utils/date/convertMongoDate.js", "app/components/screens/admin/user/useUserEdit.js", "app/components/screens/admin/user/UserEdit.jsx", "app/components/screens/admin/movies/useMovies.js", "app/components/screens/admin/movies/MovieList.jsx", "app/utils/object/getKeys.js", "app/components/ui/banner/Banner.jsx", "app/components/ui/select/Select.jsx", "app/components/ui/slider/SlideItem.jsx", "app/components/ui/slider/Slider.jsx", "app/components/ui/slider/useSlider.js", "app/components/ui/video-player/VideoPlayer.jsx", "app/components/ui/video-player/useVideo.js", "app/components/ui/slider/SlideArrow/SlideArrow.jsx", "app/components/ui/video-player/AuthPlaceholder/AuthPlaceholder.jsx", "app/components/ui/video-player/AuthPlaceholder/AuthButton.jsx", "app/components/screens/single-movie/useUpdateCountOpened.js", "app/components/screens/single-movie/SingleMovie.jsx", "app/components/screens/single-movie/Content/ContentList/ContentList.jsx", "app/components/screens/single-movie/Content/Content.jsx", "app/components/screens/single-movie/FavoriteButton/FavoriteButton.jsx", "app/components/screens/single-movie/RateMovie/RateMovie.jsx", "app/components/screens/single-movie/RateMovie/useRateMovie.js", "pages/genres.jsx", "pages/fresh.jsx", "pages/favorites.оsx", "app/components/screens/collections/CollectionImage.jsx", "app/components/screens/collections/CollectionItem.jsx", "app/components/screens/collections/Collections.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
